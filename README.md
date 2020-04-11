@@ -37,6 +37,17 @@ This command installs the helper plugins for ESLint, Prettier and Jest:
 code --install-extension dbaeumer.vscode-eslint --install-extension esbenp.prettier-vscode --install-extension orta.vscode-jest
 ```
 
+## Vocabulary
+
+- React: virtual DOM rendering library
+- Jest: used for unit tests
+- Babel: compiles modern JS to ES5 for older browsers
+- JSX: XML like syntax for calling React.createElement
+- (S)CSS: mark up rules for HTML elements
+- Webpack: bundles all code into one file
+- ESLint: staticly analyze your code for possible errors
+- Prettier: formats all code to one standard
+
 ## Changing the license
 
 This repository is licensed under the MIT license. You might now want to open source your project. If not, simply delete the license file.
