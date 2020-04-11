@@ -21,6 +21,12 @@ yarn
 
 **Why not use npm?** npm has not had the best track record in terms of performance. I recommend using yarn to save yourself some headache later. Feel free to use `npm install` instead, but then you'll have to `package-lock.json` and possibly change some configs.
 
+## Have fun
+
+```
+yarn run dev
+```
+
 ## Changing the license
 
 This repository is licensed under the MIT license. You might now want to open source your project. If not, simply delete the license file.
