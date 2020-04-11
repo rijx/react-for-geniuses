@@ -15,8 +15,11 @@ You need to install your (newest) dependencies every time the package.json chang
 Run this command to install your dependencies:
 
 ```
+npm i -g yarn
 yarn
 ```
+
+**Why not use npm?** npm has not had the best track record in terms of performance. I recommend using yarn to save yourself some headache later. Feel free to use `npm install` instead, but then you'll have to `package-lock.json` and possibly change some configs.
 
 ## Changing the license
 
