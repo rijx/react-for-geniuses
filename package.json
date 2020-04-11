@@ -5,7 +5,8 @@
     "build": "webpack --mode=production",
     "dev": "webpack-dev-server --open",
     "format": "prettier --write --ignore-path .gitignore \"**/*.{js,json,less,scss,md,graphql}\"",
-    "lint": "eslint --ignore-path .gitignore \"**/*.js\""
+    "lint": "eslint --ignore-path .gitignore \"**/*.js\"",
+    "lint:fix": "eslint --ignore-path .gitignore \"**/*.js\" --fix"
   },
   "devDependencies": {
     "@babel/core": "^7.9.0",
