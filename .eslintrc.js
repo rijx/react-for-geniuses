@@ -1,6 +1,7 @@
 module.exports = {
   parser: "babel-eslint",
   extends: ["eslint:recommended", "plugin:react/recommended"],
+  plugins: ["prettier"],
   parserOptions: {
     sourceType: "module",
     ecmaVersion: 2018,
@@ -18,6 +19,7 @@ module.exports = {
     },
   },
   rules: {
+    "prettier/prettier": "error",
     "react/react-in-jsx-scope": "off",
   },
 };
