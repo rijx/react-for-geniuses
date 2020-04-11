@@ -17,3 +17,9 @@ Run this command to install your dependencies:
 ```
 yarn
 ```
+
+## Changing the license
+
+This repository is licensed under the MIT license. You might now want to open source your project. If not, simply delete the license file.
+
+If you would like to share your project with anyone and don't really care about terms then go ahead and change the year and name on the license.
