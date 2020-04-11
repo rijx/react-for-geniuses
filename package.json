@@ -1,3 +1,9 @@
 {
-  "private": true
+  "private": true,
+  "scripts": {
+    "format": "prettier --write \"**/*.{js,json,less,scss,md,graphql}\""
+  },
+  "devDependencies": {
+    "prettier": "^2.0.4"
+  }
 }
