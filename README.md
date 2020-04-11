@@ -27,6 +27,16 @@ yarn
 yarn run dev
 ```
 
+## Setting up your IDE
+
+### Visual Studio Code
+
+This command installs the helper plugins for ESLint, Prettier and Jest:
+
+```
+code --install-extension dbaeumer.vscode-eslint --install-extension esbenp.prettier-vscode --install-extension orta.vscode-jest
+```
+
 ## Changing the license
 
 This repository is licensed under the MIT license. You might now want to open source your project. If not, simply delete the license file.
