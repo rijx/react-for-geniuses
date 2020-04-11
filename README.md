@@ -27,6 +27,12 @@ yarn
 yarn run dev
 ```
 
+## Production build
+
+```
+yarn run build
+```
+
 ## Setting up your IDE
 
 ### Visual Studio Code
