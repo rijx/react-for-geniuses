@@ -4,6 +4,7 @@ const webpack = require("webpack");
 const packageDefinition = require("./package");
 
 module.exports = {
+  mode: process.env.NODE_ENV,
   module: {
     rules: [
       {
