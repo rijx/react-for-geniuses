@@ -1,5 +1,6 @@
 module.exports = {
-  extends: ["eslint:recommended"],
+  parser: "babel-eslint",
+  extends: ["eslint:recommended", "plugin:react/recommended"],
   parserOptions: {
     sourceType: "module",
     ecmaVersion: 2018,
@@ -10,5 +11,13 @@ module.exports = {
   env: {
     browser: true,
     node: true,
+  },
+  settings: {
+    react: {
+      version: "detect",
+    },
+  },
+  rules: {
+    "react/react-in-jsx-scope": "off",
   },
 };
