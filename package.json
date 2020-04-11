@@ -21,6 +21,7 @@
     "css-loader": "^3.5.2",
     "eslint": "^6.8.0",
     "eslint-plugin-react": "^7.19.0",
+    "file-loader": "^6.0.0",
     "html-webpack-plugin": "^4.2.0",
     "node-sass": "^4.13.1",
     "prettier": "^2.0.4",
@@ -33,6 +34,7 @@
   "dependencies": {
     "normalize-scss": "^7.0.1",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "typeface-roboto": "^0.0.75"
   }
 }
