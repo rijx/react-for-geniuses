@@ -4,7 +4,7 @@ A guide for people who already know programming, but don't know the JavaScript e
 
 ## Clone this repository
 
-GitHub has this cool feature to create your own repository based on another without forking it. But that will leave a permanent mark on your repository.
+GitHub has a feature specifically for template repositories. It will squash master, create your repository and leave a permanent mark on your repository linking back to this one.
 
 You can do the following to emulate the template feature without the mark:
 
