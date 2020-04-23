@@ -4,9 +4,18 @@ A guide for people who already know programming, but don't know the JavaScript e
 
 ## Clone this repository
 
-GitHub has this cool feature to create your own repository based on another without forking it.
+GitHub has this cool feature to create your own repository based on another without forking it. But that will leave a permanent mark on your repository.
 
-[Click here to use this template repository](https://github.com/rijx/react-for-geniuses/generate)
+You can do the following to emulate the template feature without the mark:
+
+```bash
+git init
+git checkout -b template
+git pull https://github.com/rijx/react-for-geniuses.git
+git checkout --orphan master
+git add .
+git commit -m "Initial commit"
+```
 
 ## Install its dependencies
 
