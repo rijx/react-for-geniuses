@@ -49,7 +49,8 @@ yarn run build
 This command installs the helper plugins for ESLint, Prettier and Jest:
 
 ```
-code --install-extension dbaeumer.vscode-eslint --install-extension esbenp.prettier-vscode --install-extension orta.vscode-jest
+yarn # installs ESLint and Prettier locally
+code --install-extension dbaeumer.vscode-eslint --install-extension esbenp.prettier-vscode
 ```
 
 ## Vocabulary
