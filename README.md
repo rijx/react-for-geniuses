@@ -53,7 +53,11 @@ yarn # installs ESLint, Prettier and Mocha locally
 code --install-extension dbaeumer.vscode-eslint --install-extension esbenp.prettier-vscode --install-extension maty.vscode-mocha-sidebar
 ```
 
-The Mocha VSCode plugin doesn't seem to rerun tests when saving the test file. We're looking into it.
+The Mocha Test Explorer extension _can_ automatically rerun your tests when you save your file. It has to be turned on by doing the following:
+
+- Open the "Test" sidebar (lab vial icon)
+- Click the three horizontal dots
+- Click "Enable autorun"
 
 ## Vocabulary
 
