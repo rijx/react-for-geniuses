@@ -1,0 +1,17 @@
+@import "common";
+
+.AddTodoItem {
+  @include list-item;
+
+  input {
+    @include list-item-content;
+
+    border: none;
+    margin: -15px 0;
+    padding: 15px 0;
+
+    &:focus {
+      outline: 0;
+    }
+  }
+}
