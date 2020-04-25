@@ -46,17 +46,20 @@ yarn run build
 
 ### Visual Studio Code
 
-This command installs the helper plugins for ESLint, Prettier and Jest:
+This command installs the helper plugins for ESLint, Prettier and Mocha:
 
 ```
-yarn # installs ESLint and Prettier locally
-code --install-extension dbaeumer.vscode-eslint --install-extension esbenp.prettier-vscode
+yarn # installs ESLint, Prettier and Mocha locally
+code --install-extension dbaeumer.vscode-eslint --install-extension esbenp.prettier-vscode --install-extension maty.vscode-mocha-sidebar
 ```
+
+The Mocha VSCode plugin doesn't seem to rerun tests when saving the test file. We're looking into it.
 
 ## Vocabulary
 
 - React: virtual DOM rendering library
-- Jest: used for unit tests
+- Mocha: test runner
+- Enzyme: React testing library
 - Babel: compiles modern JS to ES5 for older browsers
 - JSX: XML like syntax for calling React.createElement
 - (S)CSS: mark up rules for HTML elements
